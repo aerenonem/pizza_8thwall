@@ -53,5 +53,14 @@
 			
 		</div>
 	</body>
+			
+	<script>
+
+	const modelViewer = document.querySelector('model-viewer');
+    modelViewer.addEventListener('model-visibility', function(evt) {
+        
+		document.getElementById("button1").style.display="block";
+    })
+	</script>
 	
 </html>
