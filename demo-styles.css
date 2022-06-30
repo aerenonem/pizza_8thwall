@@ -19,7 +19,7 @@ body {
     /* left: 57%; */
     transform: translateX(-50%);
     bottom: 30px;
-   
+    display: none;
     cursor: pointer;
     border-radius: 18px;
     font-family: Roboto Regular, Helvetica Neue, sans-serif;
